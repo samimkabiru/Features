@@ -44,3 +44,13 @@ p {
     font-size: 1.2rem;
   }
 }
+
+/* Block */
+.block {
+  padding: 5rem 2rem;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
