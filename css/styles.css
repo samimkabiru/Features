@@ -57,6 +57,28 @@ p {
 
 /* Icons */
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 0 35px 10px hsl(0 0% 96%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card__content {
+  border-top: 3px solid hsl(180, 62%, 55%);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__header {
+  margin: 0 0 2.5rem;
+}
+
+.card__icon {
+  align-self: flex-end;
 }
